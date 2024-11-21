@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+input,
+button,
+textarea {
+  background-color: #fff;
+  border: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e1ef;
+}
+
+.card {
+  width: 32rem;
+  height: 49.9rem;
+  border-radius: 2rem;
+  padding: 1.6rem 1.6rem 4rem;
+  background-color: #fff;
+  box-shadow: 0 2.5rem 2.5rem rgba(0, 0, 0, 0.0477);
+}
+.card__imgbox {
+  margin-bottom: 2.4rem;
+}
+.card__imgbox-img {
+  border-radius: 1rem;
+}
+.card__content {
+  padding: 0 1.6rem;
+}
+.card__content-heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 120%;
+  color: #1f314f;
+  margin-bottom: 1.6rem;
+}
+.card__content-text {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 140%;
+  letter-spacing: 0.02rem;
+  text-align: center;
+  color: #68778d;
+}

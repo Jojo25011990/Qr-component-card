@@ -1,0 +1,64 @@
+@forward "./reset";
+
+// *** COLORS ***
+$bg-color: #d5e1ef;
+$bg-card: #fff;
+$heading-color: #1f314f;
+$text-color: #68778d;
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Outfit", sans-serif;
+	background-color: $bg-color;
+}
+
+.card {
+	width: 32rem;
+	height: 49.9rem;
+	border-radius: 2rem;
+	padding: 1.6rem 1.6rem 4rem;
+
+	background-color: $bg-card;
+	box-shadow: 0 2.5rem 2.5rem rgba($color: #000, $alpha: 0.0477);
+
+	&__imgbox {
+		margin-bottom: 2.4rem;
+
+		&-img {
+			border-radius: 1rem;
+		}
+	}
+
+	&__content {
+		padding: 0 1.6rem;
+
+		&-heading {
+			font: {
+				size: 2.2rem;
+				weight: 700;
+			}
+
+			line-height: 120%;
+
+			color: $heading-color;
+
+			margin-bottom: 1.6rem;
+		}
+
+		&-text {
+			font: {
+				size: 1.5rem;
+				weight: normal;
+			}
+
+			line-height: 140%;
+			letter-spacing: 0.02rem;
+			text-align: center;
+
+			color: $text-color;
+		}
+	}
+}
