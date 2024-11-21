@@ -91,6 +91,7 @@ body {
   padding: 1.6rem 1.6rem 4rem;
   background-color: #fff;
   box-shadow: 0 2.5rem 2.5rem rgba(0, 0, 0, 0.0477);
+  text-align: center;
 }
 .card__imgbox {
   margin-bottom: 2.4rem;
@@ -113,6 +114,5 @@ body {
   font-weight: normal;
   line-height: 140%;
   letter-spacing: 0.02rem;
-  text-align: center;
   color: #68778d;
 }

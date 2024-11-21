@@ -24,6 +24,8 @@ body {
 	background-color: $bg-card;
 	box-shadow: 0 2.5rem 2.5rem rgba($color: #000, $alpha: 0.0477);
 
+	text-align: center;
+
 	&__imgbox {
 		margin-bottom: 2.4rem;
 
@@ -56,7 +58,6 @@ body {
 
 			line-height: 140%;
 			letter-spacing: 0.02rem;
-			text-align: center;
 
 			color: $text-color;
 		}
